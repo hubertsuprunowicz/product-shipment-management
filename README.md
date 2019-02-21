@@ -13,7 +13,7 @@ Go to your project repository and use clone command
 git clone https://github.com/hubertsuprunowicz/product-shipment-management.git
 ```
 Go to
-(https://console.developers.google.com/apis/dashboard?project=product-shipment-1546974435730)[Gmail Api Console]
+[https://console.developers.google.com/apis/dashboard?project=product-shipment-1546974435730](Gmail Api Console)
 create your project together with credientials
 You need to add them to ...
 
