@@ -1,0 +1,8 @@
+#ignore this
+
+/Credentials/*
+/vendor/*
+
+.idea
+
+payments.json

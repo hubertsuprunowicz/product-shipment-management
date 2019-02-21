@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>The HTML5 Herald</title>
+	<meta name="description" content="Allegro App">
+	<meta name="author" content="SitePoint">
+
+	<link rel="stylesheet" href="public/css/app.css">
+	<link href="https://fonts.googleapis.com/css?family=Nunito:300" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+<body>
+
+<section class="payments-info">
+	<table>
+		<tr>
+			<th>total: <span id="total-payments-number">{{ paymentLength }}</span></th>
+			<th class="payments-refresh-btn"><a href="?refresh">Refresh</a></th>
+		</tr>
+		<tr class="payments-title">
+			<th>Date<a href="?sortTimestamp"><span class="fa fa-caret-down"></span></a><a href="?sortTimestampR"><span class="fa fa-caret-up"></span></a></th>
+			<th>Product<a href="?sortProductName"><span class="fa fa-caret-down"></span></a><a href="?sortProductNameR"><span class="fa fa-caret-up"></span></a></th>
+			<th>Qty<a href="?sortQty"><span class="fa fa-caret-down"></span></a><a href="?sortQtyR"><span class="fa fa-caret-up"></span></a></th>
+			<th>Letter information</th>
+			<th>Address</th>
+			<th>Sent</th>
+		</tr>
+		{% for item in payments %}
+		<tr class="payments-item" id="payments-item{{ loop.index }}">
+			<th>{{ item.timestamp }}</th>
+			<th>{{ item.productName }}</th>
+			<th>{{ item.qty }} </th>
+			<th>{{ item.letterInfo }}</th>
+			<th>{{ item.address }}</th>
+			<th><button class="sent">YES</button></th>
+		</tr>
+		{% endfor %}
+	</table>
+
+</section>
+
+<script src="public/js/app.js"></script>
+</body>
+</html>

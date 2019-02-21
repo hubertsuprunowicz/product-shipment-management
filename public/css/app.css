@@ -1,0 +1,50 @@
+
+table,th,td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	font-family: 'Nunito', sans-serif;
+
+}
+
+table {
+	max-width: 50%;
+}
+
+tr {
+
+}
+
+th {
+	min-width: 80px;
+}
+
+.payments-info {
+	display: flex;
+	justify-content: center;
+}
+
+.payments-item {
+	background-color: white;
+}
+
+.payments-item > th {
+	font-weight: 100;
+}
+
+.payments-title > th {
+	font-weight: 900;
+}
+
+.payments-refresh-btn a {
+	text-decoration: none;
+	color: white;
+}
+
+.payments-refresh-btn {
+	background-color: forestgreen;
+	color: white;
+}
+
+.payments-refresh-btn:hover {
+	background-color: #dd4444;
+}
