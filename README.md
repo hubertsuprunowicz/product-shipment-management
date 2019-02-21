@@ -7,7 +7,6 @@ Simple app for own purpose. I'm using it to get payments of users s
 4.
 
 ## Installation
-This project will 
 Go to your project repository and use clone command
 ```
 git clone https://github.com/hubertsuprunowicz/product-shipment-management.git
