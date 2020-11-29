@@ -16,13 +16,6 @@ Go to
 create your project together with credientials
 You need to add them to ...
 
-
-## Functionalities
-
-```
-
-```
-
 ## Tech
 
 * PHP 7.1
