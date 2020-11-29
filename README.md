@@ -13,8 +13,7 @@ git clone https://github.com/hubertsuprunowicz/product-shipment-management.git
 ```
 Go to
 [Gmail Api Console](https://console.developers.google.com/apis/dashboard?project=product-shipment-1546974435730)
-create your project together with credientials
-You need to add them to ...
+create your project together with credientials (You need to add them to)
 
 ## Tech
 
